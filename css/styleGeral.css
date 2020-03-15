@@ -1,0 +1,71 @@
+div#apresentacao{
+	background-color: #689f38;
+	padding: 20px;
+}
+body{
+	background-color: #7cb342;
+	color: #555;
+}
+span#tituloApresentacao{
+	font-size: 27px;
+	background-color: #558b2f;
+	padding: 7px;
+	color: #4e342e;
+}
+div.conteudoGeral{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+div.container{
+	padding: 30px;	
+	background-color: #eee;
+	border: 3px dashed #8d6e63;
+	border-radius: 0.2em;
+}
+
+@media (max-width: 800px){
+	img.imgCentral{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+}
+@media (min-width: 801px){
+	img.imgCentral{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+	}
+}
+.negrito{
+	font-weight: bold;
+}
+
+.texto{
+	font-size: 17px;
+}
+.esquerda{
+	float: left;
+}
+.glyphicon{
+	font-size:20px;
+}
+span#coracao{
+	color: #e53935;
+}
+a{
+	color: #0091ea;
+}
+a:hover{
+	text-decoration: none !important;
+	color: #0091ea;
+}
+div#rodape{
+	background-color: #689f38;
+	padding: 10px;
+	color: #fff;
+}
